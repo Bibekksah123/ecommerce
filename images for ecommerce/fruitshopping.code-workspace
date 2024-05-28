@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "A:/fruitshopping"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "images for ecommerce"
+	}
+}

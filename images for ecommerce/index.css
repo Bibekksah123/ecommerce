@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+   font-size: 46px;
+   line-height: 64px;
+   color: #222; 
+}h3{
+    font-size: 46px;
+    line-height: 64px;
+    color: #222; 
+ }
+ h4{
+    font-size:20px;
+    line-height: 64px;
+    color: #222; 
+ }
+ h5{
+    font-size:16px;
+    line-height: 64px;
+    color: #222; 
+ }
+ h6{
+    font-size: 12px;
+    line-height: 64px;
+    color: #222; 
+ }
+ p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+ }
+ .section-p1{
+    padding: 40px 80px;
+
+
+ }
+ .section-m1{
+    margin: 40px 0;
+ }
+ body{
+    width: 100%;
+ }
+ .logo{
+    height: 80px;
+    width: 100px;
+ }
+ .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:30px;
+    height: 60px;
+position: sticky;
+
+
+ }
+ .nav a{
+    text-decoration: none;
+ }
+ .nav{
+min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+ 
+ .nav a:hover{
+    color: aqua;
+
+    border-bottom: 1px solid rgb(110, 21, 36);
+ 
+
+ }
+ .banner{
+    background-image: url("banner.png");
+  
+    height:90vh;
+    width: 100%;
+    background-position:top 25% right 0;
+    background-size: cover;
+    padding: 0px 80px;
+   align-items: center;
+ 
+    
+ }
+ .banner h1{
+    color: aqua;
+ }
+ .banner button{
+    background-color: aquamarine;
+    padding: 2px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+ }
+ .feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+ }
+ .feat{
+    width: 180px;
+    text-align: center;
+    width: 100%;
+    margin: 0 5px;
+   box-shadow:5px 5px 5px #bab1b1, -5px -5px 5px rgb(68, 67, 67);
+  
+ }
+.product{
+   display: flex;
+}
+.shop{
+   cursor: pointer;
+}
+.ban{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url("https://th.bing.com/th/id/OIP.WaLSffxSBZU631CiNGKnYwHaBv?rs=1&pid=ImgDetMain");
+   width: 100%;
+   height: 40vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.ban button:hover{
+   background-color: aqua;
+   cursor: pointer;
+   border: none;
+height: 30px;
+border-radius: 10px;
+   margin: 3px 0px;
+}
+.h{
+display: inline;
+}
+.smbanner{
+   display: flex;
+}
+.smbanner .bannerbox{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url("hero-1.png");
+   width:600px;
+   height: 50vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.newsleter{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.newsleter button{
+   height: 25px;
+   width: 90px;
+  
+} 
+.newsleter button:hover{
+   background: lightgreen;
+   cursor: pointer;
+   box-sizing: 5px 5px 5px gray, -5px -5px 5px white;
+}
+.foot{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.mobile{
+display: none;
+}
+.page-header{
+   background-image: url("hero-2.png");
+   width: 100%;
+   height: 40vh;
+   background-size: cover;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.prodetain{
+   width: 40%;
+   margin-right: 50px;
+}
+
+.smallimg{
+   width: 40%;
+   margin-right: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.small img{
+height: 100px;
+width: 100px;
+margin-right: 5px;
+}
+.small img:hover{
+   opacity: 0.8;
+   background-color: aqua;
+}
+.prodetain {
+   display: flex;
+   margin-left: 20px;
+}
+.cart table{
+   width: 100%;
+   border-collapse:collapse ;
+   table-layout: fixed;
+   white-space: nowrap;
+}
+.cart table img{
+   width: 70px;
+}
+
+@media(max-width:799px){
+   .nav{
+  
+      display:flex;
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content:flex-start;
+     position: fixed;
+      right: -500px;
+      margin-top: 120px;
+
+   
+  
+   }
+   .nav a{
+      margin-top: 5px;
+   }
+   .mobile{
+      display: block;
+   }
+.navitem{
+   right: 0;
+}
+
+}
